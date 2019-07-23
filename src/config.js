@@ -1,4 +1,7 @@
 const dev = {
+
+  STRIPE_KEY: "pk_test_2HWncF93fvGg3cKYTB4ayd2t00njDsr1n3",
+
   s3: {
     REGION: "ap-southeast-1",
     BUCKET: "q-app-2-api-dev-serverlessdeploymentbucket-184vkozahsgfr"
@@ -19,6 +22,9 @@ const dev = {
 };
 
 const prod = {
+
+  STRIPE_KEY: "pk_test_2HWncF93fvGg3cKYTB4ayd2t00njDsr1n3",
+
   s3: {
     REGION: "ap-southeast-1",
     BUCKET: "q-app-2-api-prod-attachmentsbucket-xpi5snv85j8e"
